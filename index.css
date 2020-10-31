@@ -1,0 +1,280 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1{ 
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0rem;
+}
+
+nav{
+    background-color: #171424;
+    color: white;
+}
+
+nav div{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 2rem;
+    align-items: center;
+}
+
+.compact{
+    max-width: 1250px;
+    margin: auto;
+}
+
+nav h3{
+    margin: 0rem;
+    font-size: 2rem;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+button{
+    padding: 1rem;
+    background-color: #097D79;
+    color: white;
+    min-width: 200px;
+    font-family: 'Spartan', sans-serif;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+button:hover{
+    transform: translateY(-2px);
+}
+
+button:active{
+    transform: translateY(0px);
+}
+
+input, textarea{
+    font-family: 'Spartan', sans-serif;
+    padding: 1rem;
+    min-width: 450px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+textarea{
+    font-family: 'Spartan', sans-serif;
+}
+
+form div{
+    margin-bottom: 2rem;
+}
+
+form label{
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.btn-lg{
+    min-width: 300px;
+    padding: 1.2rem;
+    font-size: 1.4rem;
+}
+
+.yellow{
+    background-color: #9CFF91;
+}
+
+.text-black{
+    color: black;
+}
+
+.showcase{
+    background-color: #171424;
+    height: 90vh;
+    display: grid;
+}
+
+.showcase__content{
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.showcase__content-text h1{
+    font-size: 3.2rem;
+    color: white;
+    line-height: 6rem;
+    margin-bottom: 2rem;
+}
+
+.showcase__content-text span{
+    color: #9CFF91;
+}
+
+.showcase__content-img{
+    display: grid;
+    place-items: end;
+}
+
+.stack{
+    height: 80vh;
+    display: grid;
+}
+
+.stack__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.stack__content-text{
+    display: grid;
+}
+
+.stack__content-text p{
+    font-size: 1.5rem;
+    line-height: 3.2rem;
+}
+
+.stack__content-text span{
+    font-weight: bold;
+}
+
+.contact{
+    background-color: #171424;
+    display: grid;
+}
+
+.contact__content{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.contact__content h1{
+    color: white;
+    text-align: center;
+}
+
+.contact__content form{
+    margin-top: 5rem;
+    display: grid;
+}
+
+.contact__content form label{
+    color: white;
+}
+
+.contact__content form button{
+    justify-self: center;
+}
+
+footer{
+    background-color: #231E36;
+    padding: 2rem;
+}
+
+.footer__content{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer__content h1{
+    color: white;
+}
+
+.footer__content a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.footer__content-social{
+    display: grid;
+    place-items: start center;
+}
+
+.footer__content-social > div{
+    display: grid;
+    row-gap: 1rem;
+}
+
+.footer__content-social .icons{
+    justify-self: center;
+}
+
+.footer__content-social .icons img{
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.footer__content-support,
+.footer__content-site,
+.footer__content-newsletter{
+    justify-self: center;
+}
+
+.footer__content-support label{
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer__content-support a{
+    margin-bottom: 1rem;
+}
+
+.footer__content-site label{
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer__content-site a{
+    margin-bottom: 1rem;
+}
+
+.footer__content-newsletter label{
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.list{
+    display: grid;
+    row-gap: 0.5rem;
+}
+
+footer form {
+    display: grid;
+    row-gap: 1rem;
+}
+
+footer hr{
+    border-color: #4A465A;
+}
+
+.footer__copyright{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 100;
+}
